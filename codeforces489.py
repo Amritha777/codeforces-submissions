@@ -14,7 +14,7 @@ for i in xrange(0,m):
 for i in xrange(0,m):
     maxarr[i]+=min(9,sm)
     sm-=min(9,sm)
-if  len("".join(map(str,marr[::-1])))>m or len("".join(map(str,maxarr)))>m:
+if  len("".join(map(str,marr[::-1])))>m or len("".join(map(str,maxarr)))>m  :
     print -1,-1
 else:
     print "".join(map(str,marr[::-1])),"".join(map(str,maxarr))
